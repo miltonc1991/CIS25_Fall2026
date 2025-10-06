@@ -1,0 +1,61 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+// function prototypes
+void play();
+void howToPlay();
+void showCredits();
+
+int main() {
+    int option;
+
+    cout << "=== TREASURE HUNT GAME ===" << endl;
+    cout << "1. Play Game" << endl;
+    cout << "2. Instructions" << endl;
+    cout << "3. Credits" << endl;
+    cout << "Choose an option: ";
+    cin >> option;
+
+    if (option == 1) {
+        play();
+    }
+
+    if (option == 2) {
+        howToPlay();
+    }
+
+    if (option == 3) {
+        showCredits();
+    }
+
+    if (option < 1 || option > 3) {
+        cout << "Invalid option" << endl;
+    }
+
+    return 0;
+}
+
+void play() {
+    srand(time(0));
+    int treasure = rand() % 5 + 1;
+    int guess;
+
+    cout << "Pick a number between 1 and 5: ";
+    cin >> guess;
+
+    if (guess == treasure) {
+        cout << "You found the treasure!!!" << endl;
+    } else {
+        cout << "Sorry, no treasure. It was at spot " << treasure << endl;
+    }
+}
+
+void howToPlay() {
+    cout << "Pick a number between 1 and 5. If you guess the right spot, you win!" << endl;
+}
+
+void showCredits() {
+    cout << "Game made by a new C++ student." << endl;
+}
