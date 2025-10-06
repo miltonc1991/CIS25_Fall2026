@@ -57,5 +57,5 @@ void howToPlay() {
 }
 
 void showCredits() {
-    cout << "Game made by a new C++ student." << endl;
+    cout << "Game made by Milton." << endl;
 }
