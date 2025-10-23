@@ -1,6 +1,0 @@
-﻿Build started at 18:05...
-1>------ Build started: Project: Week_7, Configuration: Debug x64 ------
-1>  Week_7.cpp
-1>  Week_7.vcxproj -> C:\Users\milto\source\repos\Week_7\x64\Debug\Week_7.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
-========== Build completed at 18:05 and took 01.964 seconds ==========
