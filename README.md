@@ -52,3 +52,28 @@ To practice classes, functions, and reading/writing files.
 
 How to run:
 Compile and run the program with a C++ compiler.
+
+Assignment 6:
+
+What It Does:
+This program lets the user search for an item inside a small game inventory.
+Each item has a name and an ID number.
+The program asks the user for an ID, then uses binary search to find the item and show its name.
+
+How to Run:
+Open the code in a C++ compiler (like Code::Blocks, Dev-C++, or an online compiler).
+
+Click Run or Compile and Run.
+
+When asked, type an ID number between 1 and 5.
+
+The program will tell you if the item was found or not.
+
+Why:
+This assignment shows how to use:
+
+Structs to store related information (item name and ID).
+
+Dynamic memory allocation with new and delete[].
+
+Binary search to quickly find items in a sorted list.
